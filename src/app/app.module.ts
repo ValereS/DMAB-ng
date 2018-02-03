@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
+import { CarouselModule } from 'primeng/carousel';
 
 import { CoreModule } from './core/core.module';
 
@@ -21,7 +22,8 @@ import { CarouselComponent } from './home/carousel/carousel.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CoreModule
+    CoreModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
