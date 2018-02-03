@@ -1,0 +1,28 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "name": "Premier Article",
+      "creationDateTime": "2018-02-01",
+      "priority": "",
+      "display": true,
+      "title": "Notre premier Article"
+    },
+    {
+      "id": "1",
+      "name": "Deuxième Article",
+      "creationDateTime": "2018-02-02",
+      "priority": "",
+      "display": true,
+      "title": "Notre deuxième Article"
+    },
+    {
+      "id": "3",
+      "name": "Troisème Article",
+      "creationDateTime": "2018-02-03",
+      "priority": "",
+      "display": true,
+      "title": "Notre troisième Article"
+    }
+  ]
+}
