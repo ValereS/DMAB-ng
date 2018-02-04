@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CarouselService } from './service/carousel.service';
+import { IArticle } from './i-article';
 
 @Component({
   selector: 'app-carousel',
@@ -7,19 +9,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarouselComponent implements OnInit {
 
-  public articles;
+  public articles: IArticle;
 
-  constructor() { }
+  constructor(private _carouselServ: CarouselService) {
 
-  ngOnInit() {
-    this.articles = [
-      {title: 'premier article', creationDateT: '2018-01-01', summary: 'présentation du 1er article', image:'../../../assets/stubs/images/plantes_3_pots.jpg'},
-      {title: 'deuxieme article', creationDateT: '2018-01-02', summary: 'présentation du 2eme article'},
-      {title: 'troisieme article', creationDateT: '2018-01-03', summary: 'présentation du 3eme article'},
-      {title: 'quatrieme article', creationDateT: '2018-01-04', summary: 'présentation du 4eme article'},
-      {title: 'cinquieme article', creationDateT: '2018-01-05', summary: 'présentation du 5eme article'},
-      {title: 'sixième article', creationDateT: '2018-01-05', summary: 'présentation du 6eme article'},
-    ];
   }
 
+  ngOnInit() {
+    this.showArticles();
+  }
+
+  showArticles() {
+    this._carouselServ.getArticles().subscribe(
+      data => {
+        this.articles = data;
+      }
+    );
+  }
 }
