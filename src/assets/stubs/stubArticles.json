@@ -1,28 +1,35 @@
-{
-  "articles": [
+[
     {
       "id": "1",
-      "name": "Premier Article",
+      "title": "Notre premier Article",
       "creationDateTime": "2018-02-01",
-      "priority": "",
-      "display": true,
-      "title": "Notre premier Article"
+      "summary": "On va raconter la vie de notre premier article mais je ne vois pas trop quoi raconter",
+      "keywords": [
+        "un", "uno", "ein", "raz"
+      ],
+      "image": "../../../assets/stubs/images/plantes_3_pots.jpg",
+      "description": null
     },
     {
-      "id": "1",
-      "name": "Deuxième Article",
+      "id": "2",
+      "title": "Notre deuxieme Article",
       "creationDateTime": "2018-02-02",
-      "priority": "",
-      "display": true,
-      "title": "Notre deuxième Article"
+      "summary": "On va raconter la vie de notre premier article mais je ne vois pas trop quoi raconter",
+      "keywords": [
+        "un", "uno", "ein", "raz"
+      ],
+      "image": "../../../assets/stubs/images/plantes_3_pots.jpg",
+      "description": null
     },
     {
       "id": "3",
-      "name": "Troisème Article",
+      "title": "Notre Troisème Article",
       "creationDateTime": "2018-02-03",
-      "priority": "",
-      "display": true,
-      "title": "Notre troisième Article"
+      "summary": "On va raconter la vie de notre premier article mais je ne vois pas trop quoi raconter",
+      "keywords": [
+        "un", "uno", "ein", "raz"
+      ],
+      "image": "../../../assets/stubs/images/plantes_3_pots.jpg",
+      "description": null
     }
-  ]
-}
+]
