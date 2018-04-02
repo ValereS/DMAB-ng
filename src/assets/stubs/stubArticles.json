@@ -1,0 +1,35 @@
+[
+    {
+      "id": "1",
+      "title": "Notre premier Article",
+      "creationDateTime": "2018-02-01",
+      "summary": "On va raconter la vie de notre premier article mais je ne vois pas trop quoi raconter",
+      "keywords": [
+        "un", "uno", "ein", "raz"
+      ],
+      "image": "../../../assets/stubs/images/plantes_3_pots.jpg",
+      "description": null
+    },
+    {
+      "id": "2",
+      "title": "Notre deuxieme Article",
+      "creationDateTime": "2018-02-02",
+      "summary": "On va raconter la vie de notre premier article mais je ne vois pas trop quoi raconter",
+      "keywords": [
+        "un", "uno", "ein", "raz"
+      ],
+      "image": "../../../assets/stubs/images/plantes_3_pots.jpg",
+      "description": null
+    },
+    {
+      "id": "3",
+      "title": "Notre Troisème Article",
+      "creationDateTime": "2018-02-03",
+      "summary": "On va raconter la vie de notre premier article mais je ne vois pas trop quoi raconter",
+      "keywords": [
+        "un", "uno", "ein", "raz"
+      ],
+      "image": "../../../assets/stubs/images/plantes_3_pots.jpg",
+      "description": null
+    }
+]
